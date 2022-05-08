@@ -1,5 +1,5 @@
 # OurDroneSimulator
-![image](https://user-images.githubusercontent.com/74476764/167312022-986dbf88-0240-4475-9a6f-4d08ff83d8e9.png)
+![image](https://user-images.githubusercontent.com/74476764/167312073-1e475be9-2d46-4ff3-920f-cebf1fab5d47.png)
 
 The main goal for this project is to try find good solution of small drone, flying inside indoor building without getting hit and crash.
 The project fully autonomous 2d drone simulator, this simulator is trying to be realistic as much as it can, with lidar sensors,gyroscope sensor ,optical flow sensor and speed sensor.
