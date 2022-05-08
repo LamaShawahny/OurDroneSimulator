@@ -7,7 +7,7 @@ Basic API with real-time info and also manual controlling.
 We also implemented kind of area mapping when the drone fly.
 This project written in Java.
 
-![image](https://user-images.githubusercontent.com/74476764/167312124-ace8aa68-0c98-4fb0-a9f6-2430a82f7773.png)
+                                           ![image](https://user-images.githubusercontent.com/74476764/167312124-ace8aa68-0c98-4fb0-a9f6-2430a82f7773.png)
 
 ## Getting Started
 
