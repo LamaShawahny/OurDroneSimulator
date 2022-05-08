@@ -1,5 +1,4 @@
 # OurDroneSimulator
-![image](https://user-images.githubusercontent.com/74476764/167312073-1e475be9-2d46-4ff3-920f-cebf1fab5d47.png)
 
 The main goal for this project is to try find good solution of small drone, flying inside indoor building without getting hit and crash.
 The project fully autonomous 2d drone simulator, this simulator is trying to be realistic as much as it can, with lidar sensors,gyroscope sensor ,optical flow sensor and speed sensor.
@@ -7,6 +6,8 @@ We add a little bit noise to each sample to make it more realistic approach.
 Basic API with real-time info and also manual controlling.
 We also implemented kind of area mapping when the drone fly.
 This project written in Java.
+
+![image](https://user-images.githubusercontent.com/74476764/167312124-ace8aa68-0c98-4fb0-a9f6-2430a82f7773.png)
 
 ## Getting Started
 
