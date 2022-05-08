@@ -2,14 +2,12 @@ import java.io.File;
 import java.io.IOException;
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Window;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
 
 public class Map{
 	private boolean[][] map;
-	Drone drone;
 	Point drone_start_point;
 
 	public Map(String path,Point drone_start_point) {

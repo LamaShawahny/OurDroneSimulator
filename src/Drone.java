@@ -40,12 +40,8 @@ public class Drone {
 	public void play() {
 		cpu.play();
 	}
-	
-	public void stop() {
-		cpu.stop();
-	}
-	
-	
+
+
 	public void addLidar(int degrees) {
 		Lidar lidar = new Lidar(this,degrees);
 		lidars.add(lidar);
@@ -103,16 +99,7 @@ public class Drone {
 		gyroRotation += rotationChanged;
 		gyroRotation = formatRotation(gyroRotation);
 	}
-	
-	public void rotateRight(int deltaTime) {
-		double rotationChanged = -WorldParams.rotation_per_second*deltaTime/1000;
-		
-		rotation += rotationChanged;
-		rotation = formatRotation(rotation);
-		
-		gyroRotation += rotationChanged;
-		gyroRotation = formatRotation(gyroRotation);
-	}
+
 	
 	public void speedUp(int deltaTime) {
 		speed += (WorldParams.accelerate_per_second*deltaTime/1000);
@@ -131,7 +118,6 @@ public class Drone {
 	
 	boolean initPaint = false;
 	BufferedImage mImage;
-	int j=0;
 	public void paint(Graphics g) {
 		if(!initPaint) {
 			try {
