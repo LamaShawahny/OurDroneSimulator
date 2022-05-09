@@ -5,7 +5,7 @@ The project fully autonomous 2d drone simulator, this simulator is trying to be 
 We add a little bit noise to each sample to make it more realistic approach.
 Basic API with real-time info and also manual controlling.
 We also implemented kind of area mapping when the drone fly.
-This project written in Java.
+* This project was written in Java.
                             
   ![image](https://user-images.githubusercontent.com/74476764/167312124-ace8aa68-0c98-4fb0-a9f6-2430a82f7773.png)
 
